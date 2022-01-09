@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "PTSans";
+  src: url("./fonts/PTSansNarrow-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Saira Condensed";
+  src: url("./fonts/SairaCondensed-ExtraLight.ttf") format("truetype");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,4 +15,37 @@
 
 body {
   background-color: black;
+  color: white;
+  font-family: "Saira Condensed", sans-serif;
+  text-align: center;
+}
+
+img {
+  border-radius: 90;
+  padding: 10vh 0;
+}
+
+h1 {
+  font-family: "PTSans", sans-serif;
+}
+
+p {
+  font-size: 22px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: aqua;
+}
+
+a:hover {
+  color: white;
 }
