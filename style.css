@@ -1,11 +1,11 @@
 @font-face {
   font-family: "PTSans";
-  src: url("./fonts/PTSansNarrow-Regular.ttf") format("truetype");
+  src: url("./PTSansNarrow-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Saira Condensed";
-  src: url("./fonts/SairaCondensed-ExtraLight.ttf") format("truetype");
+  src: url("./SairaCondensed-ExtraLight.ttf") format("truetype");
 }
 
 * {
